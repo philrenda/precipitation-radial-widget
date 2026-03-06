@@ -25,7 +25,7 @@ class WidgetService {
       // Render chart to image
       final recorder = ui.PictureRecorder();
       final canvas = Canvas(recorder);
-      final size = const Size(renderSize.toDouble(), renderSize.toDouble());
+      const size = Size(800, 800);
 
       final painter = RadialChartPainter(
         weatherData: data,
