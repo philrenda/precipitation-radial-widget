@@ -1,0 +1,22 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/src/main/res/mipmap-*/
+**/GeneratedPluginRegistrant.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Misc
+.DS_Store
+pubspec.lock
